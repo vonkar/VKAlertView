@@ -12,7 +12,20 @@
 		3A345CF41F72998200D63C0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A345CF21F72998200D63C0F /* Main.storyboard */; };
 		3A345CF61F72998200D63C0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A345CF51F72998200D63C0F /* Assets.xcassets */; };
 		3A345CF91F72998200D63C0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A345CF71F72998200D63C0F /* LaunchScreen.storyboard */; };
+		3A345D011F7299E400D63C0F /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A345D001F7299E400D63C0F /* AlertViewController.swift */; };
+		3A345D091F72A06200D63C0F /* VKAlertViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A345D081F72A06200D63C0F /* VKAlertViewTests.swift */; };
+		3A345D101F72A59300D63C0F /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A345D001F7299E400D63C0F /* AlertViewController.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A345D0B1F72A06200D63C0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A345CE31F72998200D63C0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A345CEA1F72998200D63C0F;
+			remoteInfo = VKAlertView;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3A345CEB1F72998200D63C0F /* VKAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,10 +35,21 @@
 		3A345CF51F72998200D63C0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A345CF81F72998200D63C0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A345CFA1F72998200D63C0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A345D001F7299E400D63C0F /* AlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		3A345D061F72A06200D63C0F /* VKAlertViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VKAlertViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A345D081F72A06200D63C0F /* VKAlertViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKAlertViewTests.swift; sourceTree = "<group>"; };
+		3A345D0A1F72A06200D63C0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3A345CE81F72998200D63C0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A345D031F72A06200D63C0F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				3A345CED1F72998200D63C0F /* VKAlertView */,
+				3A345D071F72A06200D63C0F /* VKAlertViewTests */,
 				3A345CEC1F72998200D63C0F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				3A345CEB1F72998200D63C0F /* VKAlertView.app */,
+				3A345D061F72A06200D63C0F /* VKAlertViewTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,8 +86,18 @@
 				3A345CF51F72998200D63C0F /* Assets.xcassets */,
 				3A345CF71F72998200D63C0F /* LaunchScreen.storyboard */,
 				3A345CFA1F72998200D63C0F /* Info.plist */,
+				3A345D001F7299E400D63C0F /* AlertViewController.swift */,
 			);
 			path = VKAlertView;
+			sourceTree = "<group>";
+		};
+		3A345D071F72A06200D63C0F /* VKAlertViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A345D081F72A06200D63C0F /* VKAlertViewTests.swift */,
+				3A345D0A1F72A06200D63C0F /* Info.plist */,
+			);
+			path = VKAlertViewTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +120,24 @@
 			productReference = 3A345CEB1F72998200D63C0F /* VKAlertView.app */;
 			productType = "com.apple.product-type.application";
 		};
+		3A345D051F72A06200D63C0F /* VKAlertViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A345D0D1F72A06200D63C0F /* Build configuration list for PBXNativeTarget "VKAlertViewTests" */;
+			buildPhases = (
+				3A345D021F72A06200D63C0F /* Sources */,
+				3A345D031F72A06200D63C0F /* Frameworks */,
+				3A345D041F72A06200D63C0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A345D0C1F72A06200D63C0F /* PBXTargetDependency */,
+			);
+			name = VKAlertViewTests;
+			productName = VKAlertViewTests;
+			productReference = 3A345D061F72A06200D63C0F /* VKAlertViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -97,6 +151,11 @@
 					3A345CEA1F72998200D63C0F = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
+					};
+					3A345D051F72A06200D63C0F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3A345CEA1F72998200D63C0F;
 					};
 				};
 			};
@@ -114,6 +173,7 @@
 			projectRoot = "";
 			targets = (
 				3A345CEA1F72998200D63C0F /* VKAlertView */,
+				3A345D051F72A06200D63C0F /* VKAlertViewTests */,
 			);
 		};
 /* End PBXProject section */
@@ -129,6 +189,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3A345D041F72A06200D63C0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,11 +204,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A345CF11F72998200D63C0F /* ViewController.swift in Sources */,
+				3A345D011F7299E400D63C0F /* AlertViewController.swift in Sources */,
 				3A345CEF1F72998200D63C0F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3A345D021F72A06200D63C0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A345D091F72A06200D63C0F /* VKAlertViewTests.swift in Sources */,
+				3A345D101F72A59300D63C0F /* AlertViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A345D0C1F72A06200D63C0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A345CEA1F72998200D63C0F /* VKAlertView */;
+			targetProxy = 3A345D0B1F72A06200D63C0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3A345CF21F72998200D63C0F /* Main.storyboard */ = {
@@ -280,6 +365,32 @@
 			};
 			name = Release;
 		};
+		3A345D0E1F72A06200D63C0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VKAlertViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vindod.demo.VKAlertViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VKAlertView.app/VKAlertView";
+			};
+			name = Debug;
+		};
+		3A345D0F1F72A06200D63C0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VKAlertViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vindod.demo.VKAlertViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VKAlertView.app/VKAlertView";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -297,6 +408,14 @@
 			buildConfigurations = (
 				3A345CFE1F72998200D63C0F /* Debug */,
 				3A345CFF1F72998200D63C0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3A345D0D1F72A06200D63C0F /* Build configuration list for PBXNativeTarget "VKAlertViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A345D0E1F72A06200D63C0F /* Debug */,
+				3A345D0F1F72A06200D63C0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
