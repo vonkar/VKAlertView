@@ -14,7 +14,7 @@
 		3A345CF91F72998200D63C0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A345CF71F72998200D63C0F /* LaunchScreen.storyboard */; };
 		3A345D011F7299E400D63C0F /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A345D001F7299E400D63C0F /* AlertViewController.swift */; };
 		3A345D091F72A06200D63C0F /* VKAlertViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A345D081F72A06200D63C0F /* VKAlertViewTests.swift */; };
-		3A345D101F72A59300D63C0F /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A345D001F7299E400D63C0F /* AlertViewController.swift */; };
+		3A345D111F72EBAD00D63C0F /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A345D001F7299E400D63C0F /* AlertViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -150,6 +150,7 @@
 				TargetAttributes = {
 					3A345CEA1F72998200D63C0F = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4EYK9HTWPJ;
 						ProvisioningStyle = Automatic;
 					};
 					3A345D051F72A06200D63C0F = {
@@ -214,7 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A345D091F72A06200D63C0F /* VKAlertViewTests.swift in Sources */,
-				3A345D101F72A59300D63C0F /* AlertViewController.swift in Sources */,
+				3A345D111F72EBAD00D63C0F /* AlertViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +346,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4EYK9HTWPJ;
 				INFOPLIST_FILE = VKAlertView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vindod.demo.VKAlertView;
@@ -357,6 +360,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4EYK9HTWPJ;
 				INFOPLIST_FILE = VKAlertView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vindod.demo.VKAlertView;

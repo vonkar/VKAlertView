@@ -20,6 +20,20 @@
                ReferencedContainer = "container:VKAlertView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3A345D051F72A06200D63C0F"
+               BuildableName = "VKAlertViewTests.xctest"
+               BlueprintName = "VKAlertViewTests"
+               ReferencedContainer = "container:VKAlertView.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction

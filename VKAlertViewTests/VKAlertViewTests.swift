@@ -8,6 +8,7 @@
 
 import XCTest
 
+
 class VKAlertViewTests: XCTestCase {
     
     override func setUp() {
