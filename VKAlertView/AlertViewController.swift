@@ -30,9 +30,16 @@ class AlertViewController: NSObject {
 
         }
         
+        if title.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines).characters.count == 0 && message.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines).characters.count == 0{
+            
+            assertionFailure("title and message both cannot be empty")
+            return
+        }
+        
         if noTitle.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines).characters.count == 0 && yesTitle.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines).characters.count == 0{
             
-             return
+            assertionFailure("all button titles cannot be empty")
+            return
         }
          origin.present(alertController, animated: true, completion: nil)
         

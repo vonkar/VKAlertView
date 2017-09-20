@@ -28,7 +28,7 @@ class ViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        AlertViewController.shared.displayAlert(title: "This is some title", message: "This is some message", origin: self,noTitle:"No",yesTitle: "Yes")
+        AlertViewController.shared.displayAlert(title: "This is some title", message: "This is some message", origin: self,noTitle:"",yesTitle: "")
     }
 
 }

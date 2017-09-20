@@ -22,7 +22,7 @@ class VKAlertViewTests: XCTestCase {
     
     func testDisplayAlert() {
         let vc = UIViewController()
-        AlertViewController.shared.displayAlert(title: "Some title", message: "Some message", origin: vc, noTitle: "", yesTitle: "")
+        AlertViewController.shared.displayAlert(title: "Some title", message: "Some message", origin: vc, noTitle: "No", yesTitle: "Yes")
         
     }
     
